@@ -50,3 +50,4 @@ let obj1 = {
 for (var dx = 0;dx<5;dx++){
 console.log(obj1[dx]);
 }
+
