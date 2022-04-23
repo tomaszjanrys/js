@@ -26,3 +26,4 @@ let obj = {
 }
 
 console.log(obj.c(), typeof(obj));
+alert("dd");
