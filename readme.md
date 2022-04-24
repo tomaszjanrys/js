@@ -1,3 +1,3 @@
-> #  training course![#f03c15](`JavaScript`)
+> #  training !course  __JavaScript__
 
 ----
