@@ -1,10 +1,10 @@
 > #  training course __JavaScript__
 ----
-> | file  | title |
+> | file.js  | title |
 > |:-|-:|
 > | 01 | - |
 > | 01a | - |
 > | 02 | reference |
+> | 03 | Number, Infinity, Nan|
 
 
-This is a test to see how the colors work.
