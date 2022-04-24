@@ -1,3 +1,2 @@
-> #  training !course  __JavaScript__
-
+> #  training course __JavaScript__
 ----
