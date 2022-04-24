@@ -1,3 +1,3 @@
-> #  training course <span style="color:orangered"> __JavaScript__</span>
+> #  training course <span style="color:orangered"> `JavaScript`</span>
 
 ----
