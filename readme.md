@@ -1,3 +1,3 @@
-> #  training course <span style="color:orangered"> `JavaScript`</span>
+> #  training course![#f03c15](`JavaScript`)
 
 ----
