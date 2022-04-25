@@ -7,5 +7,6 @@
 > | 02 | reference |
 > | 03 | Number, Infinity, Nan|
 > | 04 | literals , slice, split, reg, indexof, replace |
+> | 05 | Arrays |
 
 
