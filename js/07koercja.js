@@ -20,8 +20,21 @@ let tab = new Array()
 tab = [1,2,3,4].join("-")
 console.log(tab+ "typ",typeof tab)
 
+let obl = 2*4/2;
+let tab2 = new Array();
 
 
-
+for (var i =0 , j=0.0;i<20;i++, j++){
+    let obl = (20 ) / (j);
+    tab2.push(obl.toString());
+    console.log("parse",parseFloat(j/10) ,i )
+}
+console.log(tab2)
+tab2.forEach(
+    function(item, index, array)
+    {
+        console.log(item +" rem", index  )
+    }
+)
 
 
