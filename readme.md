@@ -11,5 +11,6 @@
 > | 06 |array splice |
 > | 07 | explicit and implicit coercion |
 > | 08 | scope |
-> | 09 | hoisting |
+> | 08 | hoisting |
+> | 09 | object constructor |
 
