@@ -16,4 +16,5 @@
 > | 09a | object constructor literal patern fabric CARTSHOP |
 > | 09b | object |
 > | 09c | object deep copy JSON other |
+> | 09d | object get set |
 
