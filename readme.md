@@ -13,5 +13,5 @@
 > | 08 | scope |
 > | 08 | hoisting |
 > | 09 | object constructor |
-> | 09a | object constructor literal patern fabric |
+> | 09a | object constructor literal patern fabric CARTSHOP |
 

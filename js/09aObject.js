@@ -73,3 +73,65 @@ personShop.printStats();
 console.log(personShop.personArr.length)
 
 console.log(personShop.personArr.length)
+
+/* 
+Shop cart
+*/
+let shopCart =
+            {
+                //Shoping list
+                items:[],
+                add:function(name,price)
+                    {
+                        this.items.push(
+                            {
+                                name:name,
+                                price:price
+                            }
+                        )
+                    },
+                printInfo:function()
+                          {
+                              let finalPrice = 0;
+                              for(let i = 0;i < this.items.length;i++){
+                                let element = this.items[i];
+                                finalPrice += finalPrice + element.price
+                                console.log(`nr ${i} W koszyku ${element.name} Cena : ${element.price}`);
+                            }
+                              console.log(`Wartosc zakupow : ${finalPrice}`);
+                          },
+                removeItems:function(i)
+                            {
+                                if(i >= this.items.length)return;
+                                this.items.splice(i,1);
+                            },
+                exceendedSum:function()
+                            {
+                             let finalPrice = 0;
+                             for(let i =0 ; i<this.items.length;i++){
+                                let elemet = this.items[i];
+                                finalPrice += finalPrice + elemet.price;
+                                if(finalPrice>10000){
+                                   while(finalPrice>10000){
+                                     console.log("Przekroczyles limit usun produkt ");
+                                    let remove = prompt("wpisz idex");
+                                    this.items.splice(remove,1);
+                                    break;
+                                   }
+                                }else{
+                                    var allowed = 10000 - finalPrice;
+                                    console.log(`nr zakupu ${i} Dostepne srodki ` + allowed);
+                                }
+                             
+                             }  
+                            }
+            }
+shopCart.add("MOnitor",644);            
+shopCart.add("Myszka",120);            
+shopCart.add("Klawiatura",321);            
+shopCart.add("Rtx",3500);   
+shopCart.add("Obudowa",4224)
+shopCart.exceendedSum();
+shopCart.printInfo();
+shopCart.exceendedSum();
+shopCart.printInfo();
