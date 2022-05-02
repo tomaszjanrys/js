@@ -14,4 +14,6 @@
 > | 08 | hoisting |
 > | 09 | object constructor |
 > | 09a | object constructor literal patern fabric CARTSHOP |
+> | 09b | object |
+> | 09c | object deep copy JSON other |
 
