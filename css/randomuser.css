@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+  
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    background-color: burlywood;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.header{
+    background-color: orangered;
+    font-size: 4.5vmin;
+    word-break:break-all;
+    height: 10rem;
+    text-align: center;
+    width: 100%;
+ 
+}
+
+h1{
+    margin: 0 10px 0 400px;
+    padding: 2rem;
+ 
+}
+
+/* main  */
+.user-profile{
+    background-color: blueviolet;
+    border-radius: .5rem ;
+    margin: auto;
+    height: auto;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 4.5vmin;
+
+}
+.row{
+    background-color: aqua;
+    display: flex;
+}
+.column{
+    background-color: palevioletred;
+    flex: 50%;
+
+   
+}
+#avatar-src{
+    border-radius: 5rem;
+    margin: 0.3rem;
+
+}
+#full-name{
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: 3.5vmin;
+}
+#user-name{
+    color: black;
+font-weight: 100;
+font-size: 3.5vmin;
+}
+#user-details{
+margin: 1rem;
+font-style: italic;
+font-size: 3.5vmin;
+}
+/*  */
+@media screen and (max-width:900px) {
+   .header{
+       height: auto
+   }
+    h1{
+        
+        margin: 0 100px 0 0;
+       text-align: center;
+       font-size: 7vmin;
+    
+   } 
+   .user-profile{
+    
+       
+       width: 100%;
+       font-size: 3vmax;
+   }
+   .row{
+       display: block;
+   }
+   .column{
+       padding: 1rem;
+   }
+
+   
+}
